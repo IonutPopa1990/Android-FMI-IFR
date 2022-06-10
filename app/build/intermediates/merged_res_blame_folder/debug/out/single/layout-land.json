@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\fragment_animation.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout-land\\fragment_animation.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\fragment_contact_add.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout-land\\fragment_contact_add.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\fragment_maps.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout-land\\fragment_maps.xml"
+    }
+]

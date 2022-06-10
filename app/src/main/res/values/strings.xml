@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="facebook_app_id">139898084856962</string>
+    <string name="fb_login_protocol_scheme">fb139898084856962</string>
+
+    <string name="app_name">Proiect Android Popa Ionut Cristian</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Popa Ionut Cristian</string>
+    <string name="nav_header_subtitle">ionut.popa12@s.unibuc.ro</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Prima Pagina</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_search">Cauta Contacte</string>
+    <string name="menu_add_contact">Adauga Contact</string>
+    <string name="menu_maps">Adresa </string>
+    <string name="menu_actions">Actiuni</string>
+    <string name="menu_animation">Animatie</string>
+    <string name="menu_video">Video</string>
+
+</resources>

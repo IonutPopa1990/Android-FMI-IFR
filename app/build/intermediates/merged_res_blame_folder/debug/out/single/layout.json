@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_camera.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\fragment_camera.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_contact_search.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\fragment_contact_search.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_contact_add.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\fragment_contact_add.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_animation.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\fragment_animation.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_actions.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\fragment_actions.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_videoshow.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\fragment_videoshow.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recycler_row.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\recycler_row.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\_master\\_Android_final\\proiect_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_maps.xml",
+        "source": "D:\\_master\\_Android_final\\proiect_android\\app\\src\\main\\res\\layout\\fragment_maps.xml"
+    }
+]

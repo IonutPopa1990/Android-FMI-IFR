@@ -1,0 +1,217 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.proiectfmi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:6:5-78
+12-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:7:5-80
+13-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\943b8deb2c9ef728a12f952542b64543\play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\943b8deb2c9ef728a12f952542b64543\play-services-maps-17.0.1\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\943b8deb2c9ef728a12f952542b64543\play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\943b8deb2c9ef728a12f952542b64543\play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\943b8deb2c9ef728a12f952542b64543\play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\943b8deb2c9ef728a12f952542b64543\play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\943b8deb2c9ef728a12f952542b64543\play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\943b8deb2c9ef728a12f952542b64543\play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.android.installreferrer:installreferrer:1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\67745ed70e0aa5385a73d238cce2268a\installreferrer-1.0\AndroidManifest.xml:9:5-110
+28-->[com.android.installreferrer:installreferrer:1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\67745ed70e0aa5385a73d238cce2268a\installreferrer-1.0\AndroidManifest.xml:9:22-107
+29
+30    <application
+30-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:9:5-48:19
+31        android:allowBackup="true"
+31-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:10:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\3171c5bbb2ccc19470d7c398d41ae1de\core-1.3.1\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:11:9-43
+35        android:label="@string/app_name"
+35-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:12:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:13:9-54
+37        android:supportsRtl="true"
+37-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:14:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.ProiectFMI" >
+39-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:15:9-48
+40        <activity
+40-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:16:9-25:20
+41            android:name="com.example.proiectfmi.MainActivity"
+41-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:17:13-41
+42            android:label="@string/app_name"
+42-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:18:13-45
+43            android:theme="@style/Theme.ProiectFMI.NoActionBar" >
+43-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:19:13-64
+44            <intent-filter>
+44-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:20:13-24:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:21:17-69
+45-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:21:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:23:17-77
+47-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:23:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <meta-data
+51-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:26:9-29:11
+52            android:name="com.google.android.geo.API_KEY"
+52-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:27:13-58
+53            android:value="AIzaSyCstE-Kh8p3xlxVRaTR3Q03ShjKcDWqUKA" />
+53-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:28:13-68
+54        <meta-data
+54-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:30:9-31:54
+55            android:name="com.facebook.sdk.ApplicationId"
+55-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:30:20-65
+56            android:value="@string/facebook_app_id" />
+56-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:31:13-52
+57
+58        <activity
+58-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:33:9-36:48
+59            android:name="com.facebook.FacebookActivity"
+59-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:33:19-63
+60            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+60-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:34:13-113
+61            android:label="@string/app_name"
+61-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:36:13-45
+62            android:theme="@style/com_facebook_activity_theme" />
+62-->[com.facebook.android:facebook-common:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\fd388d04d70e5a1c8e50d8f2b8d82bf0\facebook-common-7.1.0\AndroidManifest.xml:33:13-63
+63        <activity
+63-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:37:9-46:20
+64            android:name="com.facebook.CustomTabActivity"
+64-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:38:13-58
+65            android:exported="true" >
+65-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:39:13-36
+66            <intent-filter>
+66-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:40:13-45:29
+67                <action android:name="android.intent.action.VIEW" />
+67-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:41:17-69
+67-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:41:25-66
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:42:17-76
+69-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:42:27-73
+70                <category android:name="android.intent.category.BROWSABLE" />
+70-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:43:17-78
+70-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:43:27-75
+71
+72                <data android:scheme="@string/fb_login_protocol_scheme" />
+72-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:44:17-75
+72-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:44:23-72
+73            </intent-filter>
+74            <intent-filter>
+74-->[com.facebook.android:facebook-common:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\fd388d04d70e5a1c8e50d8f2b8d82bf0\facebook-common-7.1.0\AndroidManifest.xml:39:13-48:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:41:17-69
+75-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:41:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:42:17-76
+77-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:42:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:43:17-78
+78-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:43:27-75
+79
+80                <data
+80-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:44:17-75
+81                    android:host="cct.com.example.proiectfmi"
+82                    android:scheme="fbconnect" />
+82-->D:\_master\_Android_final\proiect_android\app\src\main\AndroidManifest.xml:44:23-72
+83            </intent-filter>
+84        </activity>
+85        <activity android:name="com.facebook.CustomTabMainActivity" /> <!-- Needs to be explicitly declared on P+ -->
+85-->[com.facebook.android:facebook-common:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\fd388d04d70e5a1c8e50d8f2b8d82bf0\facebook-common-7.1.0\AndroidManifest.xml:34:9-71
+85-->[com.facebook.android:facebook-common:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\fd388d04d70e5a1c8e50d8f2b8d82bf0\facebook-common-7.1.0\AndroidManifest.xml:34:19-68
+86        <uses-library
+86-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\943b8deb2c9ef728a12f952542b64543\play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+87            android:name="org.apache.http.legacy"
+87-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\943b8deb2c9ef728a12f952542b64543\play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+88            android:required="false" />
+88-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\943b8deb2c9ef728a12f952542b64543\play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+89
+90        <service
+90-->[androidx.room:room-runtime:2.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\c7c8db4ece429210936cd7d8b92ea779\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+91            android:name="androidx.room.MultiInstanceInvalidationService"
+91-->[androidx.room:room-runtime:2.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\c7c8db4ece429210936cd7d8b92ea779\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+92            android:exported="false" />
+92-->[androidx.room:room-runtime:2.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\c7c8db4ece429210936cd7d8b92ea779\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\2d96e6dff1f0b7f1f9cf7fdfa0bd4468\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\2d96e6dff1f0b7f1f9cf7fdfa0bd4468\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\2d96e6dff1f0b7f1f9cf7fdfa0bd4468\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\2d96e6dff1f0b7f1f9cf7fdfa0bd4468\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\ace63496a61a84e3d7d6cff4fca5c2a0\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\ace63496a61a84e3d7d6cff4fca5c2a0\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\ace63496a61a84e3d7d6cff4fca5c2a0\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+102        <!--
+103         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+104         with the application context. This config is merged in with the host app's manifest,
+105         but there can only be one provider with the same authority activated at any given
+106         point; so if the end user has two or more different apps that use Facebook SDK, only the
+107         first one will be able to use the provider. To work around this problem, we use the
+108         following placeholder in the authority to identify each host application as if it was
+109         a completely different provider.
+110        -->
+111        <provider
+111-->[com.facebook.android:facebook-core:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\0a76b4c6a533335f2c8e22a146b269c0\facebook-core-7.1.0\AndroidManifest.xml:39:9-42:40
+112            android:name="com.facebook.internal.FacebookInitProvider"
+112-->[com.facebook.android:facebook-core:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\0a76b4c6a533335f2c8e22a146b269c0\facebook-core-7.1.0\AndroidManifest.xml:40:13-70
+113            android:authorities="com.example.proiectfmi.FacebookInitProvider"
+113-->[com.facebook.android:facebook-core:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\0a76b4c6a533335f2c8e22a146b269c0\facebook-core-7.1.0\AndroidManifest.xml:41:13-72
+114            android:exported="false" />
+114-->[com.facebook.android:facebook-core:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\0a76b4c6a533335f2c8e22a146b269c0\facebook-core-7.1.0\AndroidManifest.xml:42:13-37
+115
+116        <receiver
+116-->[com.facebook.android:facebook-core:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\0a76b4c6a533335f2c8e22a146b269c0\facebook-core-7.1.0\AndroidManifest.xml:44:9-50:20
+117            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+117-->[com.facebook.android:facebook-core:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\0a76b4c6a533335f2c8e22a146b269c0\facebook-core-7.1.0\AndroidManifest.xml:45:13-86
+118            android:exported="false" >
+118-->[com.facebook.android:facebook-core:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\0a76b4c6a533335f2c8e22a146b269c0\facebook-core-7.1.0\AndroidManifest.xml:46:13-37
+119            <intent-filter>
+119-->[com.facebook.android:facebook-core:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\0a76b4c6a533335f2c8e22a146b269c0\facebook-core-7.1.0\AndroidManifest.xml:47:13-49:29
+120                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+120-->[com.facebook.android:facebook-core:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\0a76b4c6a533335f2c8e22a146b269c0\facebook-core-7.1.0\AndroidManifest.xml:48:17-95
+120-->[com.facebook.android:facebook-core:7.1.0] C:\Users\I&M\.gradle\caches\transforms-2\files-2.1\0a76b4c6a533335f2c8e22a146b269c0\facebook-core-7.1.0\AndroidManifest.xml:48:25-92
+121            </intent-filter>
+122        </receiver>
+123    </application>
+124
+125</manifest>

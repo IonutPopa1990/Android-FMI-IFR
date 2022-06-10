@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proiectfmi.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="com.example.proiectfmi.ui.camera.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.proiectfmi.ui.contact_search.ContactSearchFragment"
+        android:label="Contacte"
+        tools:layout="@layout/fragment_contact_search" />
+
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.example.proiectfmi.ui.maps.MapsFragment"
+        android:label="@string/menu_maps"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/nav_actions"
+        android:name="com.example.proiectfmi.ui.actions.ActionsFragment"
+        android:label="@string/menu_actions"
+        tools:layout="@layout/fragment_actions" />
+
+    <fragment
+        android:id="@+id/nav_videoshow"
+        android:name="com.example.proiectfmi.ui.videoshow.VideoshowFragment"
+        android:label="@string/menu_video"
+        tools:layout="@layout/fragment_videoshow" />
+    <fragment
+        android:id="@+id/nav_animation"
+        android:name="com.example.proiectfmi.ui.animation.AnimationFragment"
+        android:label="@string/menu_animation"
+        tools:layout="@layout/fragment_animation" />
+    <fragment
+        android:id="@+id/nav_add_contact"
+        android:name="com.example.proiectfmi.ui.contact_add.ContactAddFragment"
+        android:label="@string/menu_add_contact"
+        tools:layout="@layout/fragment_contact_add" />
+</navigation>

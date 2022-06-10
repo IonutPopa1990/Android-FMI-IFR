@@ -1,0 +1,36 @@
+com/example/proiectfmi/BuildConfig.java
+ com.example.proiectfmi.BuildConfig
+com/example/proiectfmi/db/contacts/ContactDataRoomDatabase_Impl.java
+ com.example.proiectfmi.db.contacts.ContactDataRoomDatabase_Impl
+ com.example.proiectfmi.db.contacts.ContactDataRoomDatabase_Impl$1
+com/example/proiectfmi/db/contacts/ContactDataDao_Impl.java
+ com.example.proiectfmi.db.contacts.ContactDataDao_Impl
+ com.example.proiectfmi.db.contacts.ContactDataDao_Impl$1
+ com.example.proiectfmi.db.contacts.ContactDataDao_Impl$2
+ com.example.proiectfmi.db.contacts.ContactDataDao_Impl$3
+com/example/proiectfmi/databinding/ActivityMainBinding.java
+ com.example.proiectfmi.databinding.ActivityMainBinding
+com/example/proiectfmi/databinding/NavHeaderMainBinding.java
+ com.example.proiectfmi.databinding.NavHeaderMainBinding
+com/example/proiectfmi/databinding/ContentMainBinding.java
+ com.example.proiectfmi.databinding.ContentMainBinding
+com/example/proiectfmi/databinding/FragmentAnimationBinding.java
+ com.example.proiectfmi.databinding.FragmentAnimationBinding
+com/example/proiectfmi/databinding/FragmentContactSearchBinding.java
+ com.example.proiectfmi.databinding.FragmentContactSearchBinding
+com/example/proiectfmi/databinding/FragmentContactAddBinding.java
+ com.example.proiectfmi.databinding.FragmentContactAddBinding
+com/example/proiectfmi/databinding/FragmentMapsBinding.java
+ com.example.proiectfmi.databinding.FragmentMapsBinding
+com/example/proiectfmi/databinding/RecyclerRowBinding.java
+ com.example.proiectfmi.databinding.RecyclerRowBinding
+com/example/proiectfmi/databinding/AppBarMainBinding.java
+ com.example.proiectfmi.databinding.AppBarMainBinding
+com/example/proiectfmi/databinding/FragmentCameraBinding.java
+ com.example.proiectfmi.databinding.FragmentCameraBinding
+com/example/proiectfmi/databinding/FragmentActionsBinding.java
+ com.example.proiectfmi.databinding.FragmentActionsBinding
+com/example/proiectfmi/databinding/FragmentHomeBinding.java
+ com.example.proiectfmi.databinding.FragmentHomeBinding
+com/example/proiectfmi/databinding/FragmentVideoshowBinding.java
+ com.example.proiectfmi.databinding.FragmentVideoshowBinding

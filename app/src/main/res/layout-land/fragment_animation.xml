@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/fragment_animation_scene"
+    tools:context=".ui.animation.AnimationFragment">
+
+    <Button
+        android:id="@+id/btn_object_animator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="16dp"
+        android:text="Animeaza Object Animator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_motion_layout_animator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="16dp"
+        android:text="Animeaza MotionLayout"
+        app:layout_constraintStart_toEndOf="@+id/btn_object_animator"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/redView"
+        android:layout_width="126dp"
+        android:layout_height="122dp"
+        android:background="#CF0E0E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_motion_layout_animator"
+        app:layout_constraintVertical_bias="0.235" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
